@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Dresses</title>
+    <link rel="stylesheet" href="home.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <nav class="main-nav">
+            <a href="home.html" class="logo">Shopping<em>-RK</em></a>
+            <ul class="nav">
+                <li class="scroll-to-section"><a href="home.html" class="active">Home</a></li>
+               
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div class="image-grid">
+    <div class="item1" data-base="d5">
+        <img src="images/dress/d5-blue.jpg">
+        <div class="color-options">
+            <div class="color-option" style="background-color:#151B54" onclick="changeColor(this, '#151B54')"></div>
+            <div class="color-option" style="background-color: black" onclick="changeColor(this, 'black')"></div>
+        </div>
+        <div class="info2">
+            <p><strong>Price:</strong> $50</p>
+            <p><strong>Sizes:</strong></p>
+            <label><input type="radio" name="size-d1" value="S"> S</label>
+            <label><input type="radio" name="size-d1" value="M"> M</label>
+            <label><input type="radio" name="size-d1" value="L"> L</label>
+            <label><input type="radio" name="size-d1" value="XL"> XL</label>
+             <a href="#" class="buy-button2">Buy Now</a>
+        </div>
+    </div>
+
+    <!-- Add more items with different colors and sizes -->
+
+    <div class="item1" data-base="d6">
+        <img src="images/dress/d6-blue.jpg">
+        <div class="color-options">
+            <div class="color-option" style="background-color: #90caf9" onclick="changeColor(this, '#90caf9')"></div>
+            <div class="color-option" style="background-color:#1b5e20" onclick="changeColor(this, '#1b5e20')"></div>
+            <div class="color-option" style="background-color: pink" onclick="changeColor(this, 'pink')"></div>
+            <div class="color-option" style="background-color: red" onclick="changeColor(this, 'red')"></div>
+        </div>
+        <div class="info2">
+            <p><strong>Price:</strong> $26</p>
+            <p><strong>Sizes:</strong></p>
+            <label><input type="radio" name="size-d2" value="S"> S</label>
+            <label><input type="radio" name="size-d2" value="M"> M</label>
+            <label><input type="radio" name="size-d2" value="L"> L</label>
+            <label><input type="radio" name="size-d2" value="XL"> XL</label>
+             <a href="#" class="buy-button2">Buy Now</a>
+        </div>
+    </div>
+
+    <div class="item1" data-base="d1">
+        <img src="images/dress/d1.jpg">
+        <div class="color-options">
+            <div class="color-option" style="background-color: #fff" onclick="changeColor(this, '#fff')"></div>
+            <div class="color-option" style="background-color:#212121" onclick="changeColor(this, '#212121')"></div>
+            <div class="color-option" style="background-color: #bf360c" onclick="changeColor(this, '#bf360c')"></div>
+        </div>
+        <div class="info2">
+            <p><strong>Price:</strong> $30</p>
+            <p><strong>Sizes:</strong></p>
+            <label><input type="radio" name="size-d3" value="S"> S</label>
+            <label><input type="radio" name="size-d3" value="M"> M</label>
+            <label><input type="radio" name="size-d3" value="L"> L</label>
+            <label><input type="radio" name="size-d3" value="XL"> XL</label>
+             <a href="#" class="buy-button2">Buy Now</a>
+        </div>
+    </div>
+
+    <div class="item1" data-base="d7">
+        <img src="images/dress/d7-silver.jpg">
+        <div class="color-options">
+            <div class="color-option" style="background-color:#747170" onclick="changeColor(this, '#747170')"></div>
+            <div class="color-option" style="background-color:#01579b" onclick="changeColor(this, '#01579b')"></div>
+            <div class="color-option" style="background-color:#C48793" onclick="changeColor(this, '#C48793')"></div>
+            <div class="color-option" style="background-color: #800517" onclick="changeColor(this, '#800517')"></div>
+        </div>
+        <div class="info2">
+            <p><strong>Price:</strong> $23</p>
+            <p><strong>Sizes:</strong></p>
+            <label><input type="radio" name="size-d4" value="S"> S</label>
+            <label><input type="radio" name="size-d4" value="M"> M</label>
+            <label><input type="radio" name="size-d4" value="L"> L</label>
+            <label><input type="radio" name="size-d4" value="XL"> XL</label>
+              <a href="#" class="buy-button2">Buy Now</a>
+        </div>
+    </div>
+
+    <div class="item1" data-base="d8">
+        <img src="images/dress/d8-green.jpg">
+        <div class="color-options">
+            <div class="color-option" style="background-color: #00bfa5" onclick="changeColor(this, '#00bfa5')"></div>
+            <div class="color-option" style="background-color:#b71c1c" onclick="changeColor(this, '#b71c1c')"></div>
+         
+        </div>
+        <div class="info2">
+            <p><strong>Price:</strong> $25</p>
+            <p><strong>Sizes:</strong></p>
+            <label><input type="radio" name="size-d5" value="S"> S</label>
+            <label><input type="radio" name="size-d5" value="M"> M</label>
+            <label><input type="radio" name="size-d5" value="L"> L</label>
+            <label><input type="radio" name="size-d5" value="XL"> XL</label>
+              <a href="#" class="buy-button2">Buy Now</a>
+        </div>
+    </div>
+
+    <div class="item1" data-base="d12">
+        <img src="images/dress/d12-oil.webp">
+        <div class="color-options">
+            <div class="color-option" style="background-color:rgb(255, 171, 145)" onclick="changeColor(this,'rgb(255, 171, 145)')"></div>
+            <div class="color-option" style="background-color:#263238" onclick="changeColor(this, '#263238')"></div>
+            <div class="color-option" style="background-color: #00acc1" onclick="changeColor(this, '#00acc1')"></div>
+            <div class="color-option" style="background-color: #9e9e9e" onclick="changeColor(this, '#9e9e9e')"></div>
+            <div class="color-option" style="background-color: #254117" onclick="changeColor(this, '#254117')"></div>
+        </div>
+        <div class="info2">
+            <p><strong>Price:</strong> $10</p>
+            <p><strong>Sizes:</strong></p>
+            <label><input type="radio" name="size-d6" value="S"> S</label>
+            <label><input type="radio" name="size-d6" value="M"> M</label>
+            <label><input type="radio" name="size-d6" value="L"> L</label>
+            <label><input type="radio" name="size-d6" value="XL"> XL</label>
+             <a href="#" class="buy-button2">Buy Now</a>
+        </div>
+    </div>
+
+    <div class="item1" data-base="d11">
+        <img src="images/dress/d11-pink.jpg">
+        <div class="color-options">
+            <div class="color-option" style="background-color: #FAAFBE" onclick="changeColor(this, '#FAAFBE')"></div>
+            <div class="color-option" style="background-color:#dd2c00" onclick="changeColor(this, '#dd2c00')"></div>
+            <div class="color-option" style="background-color: #461B7E" onclick="changeColor(this, '#461B7E')"></div>
+            <div class="color-option" style="background-color:#424242" onclick="changeColor(this, '#424242')"></div>
+        </div>
+        <div class="info2">
+            <p><strong>Price:</strong> $15</p>
+            <p><strong>Sizes:</strong></p>
+            <label><input type="radio" name="size-d7" value="S"> S</label>
+            <label><input type="radio" name="size-d7" value="M"> M</label>
+            <label><input type="radio" name="size-d7" value="L"> L</label>
+            <label><input type="radio" name="size-d7" value="XL"> XL</label>
+            <a href="#" class="buy-button2">Buy Now</a>
+        </div>
+    </div>
+</div>
+ <div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Enter Your Information</h2>
+        <form id="userInfoForm">
+            <input type="email" id="email" placeholder="Email" required><br><br>
+            <input type="password" id="password" placeholder="Password" required><br><br>
+            <input type="text" id="username" placeholder="Username" required><br><br>
+            <input type="tel" id="phone" placeholder="Phone Number" required><br><br>
+            <input type="text" id="location" placeholder="Location" required><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+    <footer class="footer">
+        <div class="con">
+            <p>&copy; 2024 Shopping-RK. .</p>
+        </div>
+    </footer>
+<script>
+
+ function changeColor(element, color) {
+        // Get the base data attribute from the parent element
+        let base = element.parentElement.getAttribute('data-base');
+
+        // Switch statement to change image based on color
+        let newSrc;
+        switch (color) {
+            case '#151B54':
+                newSrc = `images/dress/d5-blue.jpg`;
+                break;
+            case 'black':
+                newSrc = `images/dress/d5-black.jpg`;
+                break;
+            case '#1b5e20':
+                newSrc = `images/dress/d6-black.jpg`;
+                break;
+            case 'pink':
+                newSrc = `images/dress/d6-pink.jpg`;
+                break;
+            case 'red':
+                newSrc = `images/dress/d6-red.jpg`;
+                break;
+            case '#90caf9':
+                newSrc = `images/dress/d6-blue.jpg`;
+                break;
+            case '#212121':
+                newSrc = `images/dress/d1-dark.jpg`;
+                break;
+            case '#fff':
+                newSrc = `images/dress/d1.jpg`;
+                break;
+            case '#bf360c':
+                newSrc = `images/dress/d1-red.jpg`;
+                break;
+            case '#747170':
+                newSrc = `images/dress/d7-silver.jpg`;
+                break;
+            case '#01579b':
+                newSrc = `images/dress/d7-blue.jpg`;
+                break;
+            case '#C48793':
+                newSrc = `images/dress/d7-pink.jpg`;
+                break;
+            case '#800517':
+                newSrc = `images/dress/d7-red.jpg`;
+                break;
+            case '#b71c1c':
+                newSrc = `images/dress/d8-red.jpg`;
+                break;
+            case '#00bfa5':
+                newSrc = `images/dress/d8-green.jpg`;
+                break;
+			case '#757575':
+                newSrc = `images/dress/d8-silver.jpg`;
+                break;
+				
+			case 'rgb(255, 171, 145)':
+                newSrc = `images/dress/d12.jpg`;
+                break;
+			
+			case '#263238':
+                newSrc = `images/dress/d12-black.jpg`;
+                break;
+			
+			case '#00acc1':
+                newSrc = `images/dress/d12-blue.jpg`;
+                break;
+			case '#9e9e9e':
+                newSrc = `images/dress/d12-silver.jpg`;
+                break;
+			case '#254117':
+                newSrc = `images/dress/d12-oil.webp`;
+                break;
+            case '#FAAFBE':
+                newSrc = `images/dress/d11-pink.jpg`;
+                break; 
+            case '#dd2c00':
+                newSrc = `images/dress/d11-red.jpg`;
+                break;
+             case '#461B7E':
+                newSrc = `images/dress/d11-blue.jpg`;
+                break;
+              case '#424242':
+                newSrc = `images/dress/d11-black.jpg`;
+                break;
+			
+            default:
+                newSrc = `images/dress/${base}.jpg`;
+        }
+
+        // Find the corresponding image element and update its src attribute
+        let imgElement = element.parentElement.parentElement.querySelector('img');
+        if (imgElement) {
+            imgElement.src = newSrc;
+        }
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const buyButtons = document.querySelectorAll('.buy-button2');
+
+        buyButtons.forEach(button => {
+            button.addEventListener('click', function(event) {
+                event.preventDefault();
+
+                // Check if a size is selected
+                const selectedSize = this.closest('.item1').querySelector('input[type="radio"]:checked');
+
+                if (selectedSize) {
+                    // Show the modal for user information
+                    const modal = document.getElementById('myModal');
+                    modal.style.display = 'block';
+
+                    // Close modal functionality
+                    const closeBtn = modal.querySelector('.close');
+                    closeBtn.addEventListener('click', function() {
+                        modal.style.display = 'none';
+                    });
+
+                    // Close modal if user clicks outside of it
+                    window.onclick = function(event) {
+                        if (event.target == modal) {
+                            modal.style.display = 'none';
+                        }
+                    };
+
+                    // Handle form submission
+                    const userInfoForm = modal.querySelector('#userInfoForm');
+                    userInfoForm.addEventListener('submit', function(e) {
+                        e.preventDefault();
+
+                        // Collect user information
+                        const email = document.getElementById('email').value;
+                        const password = document.getElementById('password').value;
+                        const username = document.getElementById('username').value;
+                        const phone = document.getElementById('phone').value;
+                        const location = document.getElementById('location').value;
+
+                        // Example: Output collected information to console
+                        console.log('Email:', email);
+                        console.log('Password:', password);
+                        console.log('Username:', username);
+                        console.log('Phone:', phone);
+                        console.log('Location:', location);
+
+                        // Close the modal after submission
+                        modal.style.display = 'none';
+                    });
+                } else {
+                    // Inform user to select a size
+                    alert('Please select a size before proceeding to purchase.');
+                }
+            });
+        });
+    });
+</script>
+
+</body>
+</html>
